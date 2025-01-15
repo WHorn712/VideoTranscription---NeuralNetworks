@@ -1,7 +1,7 @@
 import cv2
 import os
 import numpy as np
-from moviepy import VideoFileClip
+from moviepy.editor import VideoFileClip
 from PIL import Image, ImageDraw, ImageFont
 
 
