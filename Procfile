@@ -1,1 +1,1 @@
-gunicorn --workers 3 --bind 0.0.0.0:$PORT wsgi:app
+gunicorn --workers 3 --bind 0.0.0.0:8000 wsgi:app
