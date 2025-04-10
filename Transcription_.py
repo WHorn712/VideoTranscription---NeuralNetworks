@@ -36,7 +36,7 @@ def print_audio_info_and_transcribe(video_path):
 
 
 
-        model = whisper.load_model("tiny")
+        model = whisper.load_model("base")
 
         # Opções de transcrição avançadas (removido log_prob_threshold)
         transcription_options = {

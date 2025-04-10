@@ -21,7 +21,8 @@ def get_language_name(language_code):
 def get_translator_for_pt(result):
 
     # Detecta idioma
-    detected_language = result.get("language", "desconhecido")
+    print("chegou aqui ",type(result))
+    detected_language = result.get("language", "pt")
     print(f"\nIdioma detectado: {get_language_name(detected_language)}")
 
     transcription_text = result["text"]
